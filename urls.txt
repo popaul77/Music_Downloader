@@ -1,0 +1,12 @@
+# Exemple d'URLs (une par ligne)
+# Retirez les # et remplacez les URLs par celles de votre choix
+
+# YouTube :
+#https://www.youtube.com/watch?v=XXXXX
+#https://youtu.be/ZZZZZ
+
+# PeerTube :
+#https://peertube.example.com/w/XXXXX
+
+# Autres plateformes supportées par yt-dlp :
+#https://autre-plateforme.com/video/XXXXX
