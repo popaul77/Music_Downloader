@@ -5,7 +5,7 @@ Music Downloader est une application graphique simple permettant de télécharge
 
 ## Plateformes supportées
 - YouTube (vidéos et playlists)
-- PeerTube
+- PeerTube (vidéos et playlists)
 - Et autres plateformes supportées par yt-dlp
 
 ## Fonctionnalités
@@ -20,7 +20,7 @@ Music Downloader est une application graphique simple permettant de télécharge
 
 1. Téléchargez l'archive tar.gz
 ```bash
-wget https://github.com/popaul77/Mes_scripts/blob/main/Music_Downloader/Musique_Youtube-1.0.2.tar.gz
+wget https://github.com/popaul77/blob/main/Music_Downloader/Musique_Youtube-1.0.2.tar.gz
 
 ```
 
