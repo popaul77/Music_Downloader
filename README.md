@@ -26,12 +26,12 @@ wget -nv https://github.com/popaul77/Music_Downloader/releases/download/Music_Do
 
 2. Décompressez l'archive
 ```bash
-tar xzf Musique_Youtube-1.0.2.tar.gz
+tar xzf Musique_Downloader-1.0.3.tar.gz
 ```
 
 3. Entrez dans le dossier
 ```bash
-cd music-downloader-1.0.2
+cd Music-Downloader
 ```
 
 4. Installez les dépendances requises
