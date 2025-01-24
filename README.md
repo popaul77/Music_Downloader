@@ -20,7 +20,7 @@ Music Downloader est une application graphique simple permettant de télécharge
 
 1. Téléchargez l'archive tar.gz
 ```bash
-wget https://github.com/popaul77/Music_Downloader/Musique_Youtube-1.0.2.tar.gz
+wget https://github.com/popaul77/Music_Downloader/releases/download/Music_Downloader/Musique_Youtube-1.0.2.tar.gz
 
 ```
 
