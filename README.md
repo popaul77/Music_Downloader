@@ -1,7 +1,8 @@
 # Music Downloader
 
 ## Description
-Music Downloader est une application graphique simple permettant de télécharger des vidéos en format MP3 depuis différentes plateformes de streaming vidéo.
+Music Downloader est une application graphique simple permettant de télécharger des vidéos en format MP3 depuis différentes plateformes de streaming vidéo et d'en extraire l'audio.
+Cette application utilise yt-dlp derniere version debian-backports
 
 ## Plateformes supportées
 - YouTube (vidéos et playlists)
@@ -20,18 +21,19 @@ Music Downloader est une application graphique simple permettant de télécharge
 
 1. Téléchargez l'archive tar.gz
 ```bash
-wget https://github.com/popaul77/Mes_scripts/blob/main/Music_Downloader/Musique_Youtube-1.0.2.tar.gz
+wget -nv https://github.com/popaul77/Music_Downloader/releases/download/Music_Downloader/Music_Downloader-1.0.3.tar.gz
 
 ```
 
 2. Décompressez l'archive
 ```bash
-tar xzf Musique_Youtube-1.0.2.tar.gz
+tar xzf Musique_Downloader-1.0.3.tar.gz
 ```
 
 3. Entrez dans le dossier
 ```bash
-cd music-downloader-1.0.2
+cd Music_Downloader
+
 ```
 
 4. Installez les dépendances requises
