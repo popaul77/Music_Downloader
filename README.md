@@ -33,7 +33,7 @@ sudo apt update
 2. Installer les dépendances :
 ```bash
 sudo apt install python3-gi python3-gi-cairo gir1.2-gtk-3.0 ffmpeg
-sudo apt install -t bookworm-backports yt-dlp=2025.01.15-1~bpo12+1
+sudo apt install -t bookworm-backports yt-dlp
 ```
 
 
