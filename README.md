@@ -14,45 +14,64 @@ Music Downloader est une application graphique simple permettant de télécharge
 - Choix du dossier de destination
 - Affichage de la progression en temps réel
 
+## 📋 Prérequis
+
+**Système cible :**
+
+Distrib : Debian 12 "Bookworm"
+
+## 🛠 Installation
+
+1. Configurer les backports :
+```bash
+sudo tee /etc/apt/sources.list.d/bookworm-backports.list <<EOF
+deb http://deb.debian.org/debian bookworm-backports main
+EOF
+sudo apt update
+```
+
+2. Installer les dépendances :
+```bash
+sudo apt install python3-gi python3-gi-cairo gir1.2-gtk-3.0 ffmpeg
+sudo apt install -t bookworm-backports yt-dlp=2025.01.15-1~bpo12+1
+```
+
+
 ## Installation depuis l'archive tar.gz
 
 1. Téléchargez l'archive tar.gz
 ```bash
-wget https://github.com/popaul77/Mes_scripts/youtube-music-downloader/archive/v1.0.1.tar.gz
+wget https://github.com/popaul77/Music_Downloader/releases/download/Music_Downloader/Music_Downloader-1.0.4.tar.gz
+
 ```
 
 2. Décompressez l'archive
 ```bash
-tar xzf v1.0.1.tar.gz
+tar xzf Music_Downloader-1.0.4.tar.gz
 ```
 
 3. Entrez dans le dossier
 ```bash
-cd youtube-music-downloader-1.0.1
+cd Music_Downloader
 ```
 
-4. Installez les dépendances requises
-```bash
-sudo apt install python3-gi python3-gi-cairo gir1.2-gtk-3.0 yt-dlp ffmpeg
-```
-
-5. Rendez le script d'installation exécutable
+4. Rendez le script d'installation exécutable
 ```bash
 chmod +x install.sh
 ```
 
-6. Exécutez le script d'installation
+5. Exécutez le script d'installation
 ```bash
 ./install.sh
 ```
 
-7. Déconnectez-vous puis reconnectez-vous à votre session pour que l'application apparaisse dans le menu
+6. Déconnectez-vous puis reconnectez-vous à votre session pour que l'application apparaisse dans le menu
 
 ## Guide d'utilisation
 
 ### Lancement de l'application
-- Depuis le menu des applications : cherchez "YouTube Music Downloader"
-- Depuis le terminal : `youtube-music-downloader`
+- Depuis le menu des applications / Son Vidéos : cherchez "Music Downloader"
+- Depuis le terminal : `Music_Downloader`
 
 ### Télécharger des vidéos
 1. Copiez l'URL d'une vidéo (YouTube, PeerTube, etc.) ou d'une playlist
@@ -82,3 +101,7 @@ chmod +x install.sh
 
 ## Support
 Pour signaler un bug ou suggérer une amélioration, veuillez créer une issue sur le dépôt GitHub. 
+
+## 📄 Licence
+
+GPL-3.0 - Consultez [LICENSE_DEBIAN](LICENSE_DEBIAN) pour les conditions spécifiques à Debian
